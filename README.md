@@ -15,4 +15,5 @@ Generally everything is LICENSE'D under the Apache 2 license by Abram Hindle.
 References
 ========================
 [XMLHttpRequest Send Request](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send)
+
 [Pass empty function as parameter](https://stackoverflow.com/questions/17685745/empty-functions-in-javascript)
