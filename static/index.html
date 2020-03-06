@@ -288,7 +288,6 @@
             //XXX: TODO Get the world from the webservice using a XMLHTTPRequest
             function callback(xhrJSON) {
                 world = xhrJSON;
-                drawFrame();
                 drawNextFrame();
             }
             sendJSONXMLHTTPRequest("/world", null, callback);
