@@ -17,3 +17,5 @@ References
 [XMLHttpRequest Send Request](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/send)
 
 [Pass empty function as parameter](https://stackoverflow.com/questions/17685745/empty-functions-in-javascript)
+
+[Dr.Hindle's Ajax Slides](https://github.com/abramhindle/CMPUT404-AJAX-Slides/blob/master/ObserverExample/server.py)
