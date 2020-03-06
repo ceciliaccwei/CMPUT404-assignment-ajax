@@ -76,6 +76,7 @@
                 fillStyle = entity["colour"];
                 strokeStyle = fillStyle;
                 arc(x, y, (entity["radius"]) ? entity["radius"] : 50, 0, 2.0 * Math.PI, false);
+                //fill the circle
                 fill();
                 stroke();
             }
@@ -289,9 +290,10 @@
             function callback(xhrJSON) {
                 world = xhrJSON;
                 drawNextFrame();
+                drawFrame();
             }
             sendJSONXMLHTTPRequest("/world", null, callback);
-            drawFrame();
+
         }
 
         // 30 frames per second
